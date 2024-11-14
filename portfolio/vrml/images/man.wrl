@@ -1,0 +1,633 @@
+#VRML V2.0 utf8
+
+EXTERNPROTO DropSensor [
+  exposedField	SFBool	enabled
+  eventOut	SFVec3f	hitPoint
+  eventOut	SFVec3f	hitNormal
+  eventOut	SFVec2f	hitTexCoord
+  eventOut	SFTime	dropTime
+  eventOut	MFNode	nodeChain
+  eventOut	MFString	url
+]
+[
+  "urn:ParaGraph:DropSensor"
+  "http://www.parallelgraphics.com/vrml/proto/
+Cortona/extensions.wrl#DropSensor"
+]
+
+
+PROTO Stand []
+{
+
+DEF Cylinder01 Transform {
+  translation -0.005905 0 0.001341
+  children [
+      Transform {
+        translation 0 0.03609 0
+        children [
+          Shape {
+            appearance Appearance {
+              material Material {
+                diffuseColor .4 .4 .4
+				specularColor .77 .77 .77
+				ambientIntensity .25
+				shininess .6
+              }
+            }
+            geometry Cylinder { radius 0.7156 height 0.07218 }
+          }
+    ] }
+  ]
+}
+
+} #STAND
+
+
+NavigationInfo {
+	type       ["WALK", "ANY"]
+	headlight FALSE
+	avatarSize [0.7, 1.8, 0.5]
+}
+
+
+
+DEF MainResizer Transform {
+	translation 0 0 -10
+	scale 1.7 1.2 1
+	children [
+
+]} #MainResizer Transform
+
+DEF TableScratchAudio AudioClip {
+  			description      "TableScratch"
+  			loop             FALSE
+  			pitch            0.8        # (0,)
+  			startTime        -1          # (-,)
+  			stopTime         0          # (-,)
+  			url              [""]
+}
+
+##############Object LOOP
+
+
+
+
+
+DEF TableTransformer_0 Transform {
+#translation 0 0 -0.0
+children [
+DEF Table Transform {
+	rotation 1 0 0 1.57
+	children [
+	    DEF TablePlaneSensor_0 PlaneSensor { }
+		DEF T_0 Transform {
+			rotation 1 0 0 -1.57
+			translation 0 0 0
+
+		children [
+
+				Stand {}
+
+				###################### Object
+
+
+
+
+
+
+
+
+	 ###################################ADD OBJECTS##############################
+
+
+							DEF ObjectTransform_0 Transform {
+								translation 0 1.65 0
+								#scale 0.14 0.14 0.14
+								#scale 0.56 0.56 0.56
+								scale 1  1  1
+								children [
+
+									DEF	CylinderSensor CylinderSensor {}
+									DEF ObjectRot_0 Transform {
+										children	[
+
+
+
+
+									 DEF Cylinder01 Transform {
+  translation -0.005905 0 0.004117
+
+  children [
+	  DEF CldSensor1 CylinderSensor	{ enabled TRUE }
+      Transform {
+        translation 0 -0.0236 0
+		children [
+		#VRML V2.0 utf8
+
+
+Transform {
+	translation 0 -1.5 0
+	children [
+		Shape {
+			geometry Box { size 1 0.12 1 }
+			appearance Appearance { material Material { diffuseColor 0.6 0.6 0.9 transparency 0.4 } }
+		}
+	]
+}
+
+
+##############Object LOOP
+
+###################### Object
+
+
+###################################ADD OBJECTS##############################
+
+
+################################ BILLBOARD##################################
+
+
+Billboard {
+children [
+	DEF SW Switch {
+		whichChoice  0
+		choice [
+			Shape {
+				geometry Box { size 2 3 0.001 }
+				appearance Appearance { material Material { diffuseColor 1 1 1} texture DEF tex1 ImageTexture { url "Man\0.gif" } }
+			}
+			Shape {
+				geometry Box { size 2 3 0.001 }
+				appearance Appearance { material Material { diffuseColor 1 1 1} texture DEF tex2 ImageTexture { url "Man\1.gif" } }
+			}
+			Shape {
+				geometry Box { size 2 3 0.001 }
+				appearance Appearance { material Material { diffuseColor 1 1 1} texture DEF tex3 ImageTexture { url "Man\2.gif" } }
+			}
+			Shape {
+				geometry Box { size 2 3 0.001 }
+				appearance Appearance { material Material { diffuseColor 1 1 1} texture DEF tex4 ImageTexture { url "Man\3.gif" } }
+			}
+			Shape {
+				geometry Box { size 2 3 0.001 }
+				appearance Appearance { material Material { diffuseColor 1 1 1} texture DEF tex5 ImageTexture { url "Man\4.gif" } }
+			}
+			Shape {
+				geometry Box { size 2 3 0.001 }
+				appearance Appearance { material Material { diffuseColor 1 1 1} texture DEF tex6 ImageTexture { url "Man\5.gif" } }
+			}
+			Shape {
+				geometry Box { size 2 3 0.001 }
+				appearance Appearance { material Material { diffuseColor 1 1 1} texture DEF tex7 ImageTexture { url "Man\6.gif" } }
+			}
+			Shape {
+				geometry Box { size 2 3 0.001 }
+				appearance Appearance { material Material { diffuseColor 1 1 1} texture DEF tex8 ImageTexture { url "Man\7.gif" } }
+			}
+			Shape {
+				geometry Box { size 2 3 0.001 }
+				appearance Appearance { material Material { diffuseColor 1 1 1} texture DEF tex9 ImageTexture { url "Man\8.gif" } }
+			}
+			Shape {
+				geometry Box { size 2 3 0.001 }
+				appearance Appearance { material Material { diffuseColor 1 1 1} texture DEF tex10 ImageTexture { url "Man\9.gif" } }
+			}
+			Shape {
+				geometry Box { size 2 3 0.001 }
+				appearance Appearance { material Material { diffuseColor 1 1 1} texture DEF tex11 ImageTexture { url "Man\10.gif" } }
+			}
+			Shape {
+				geometry Box { size 2 3 0.001 }
+				appearance Appearance { material Material { diffuseColor 1 1 1} texture DEF tex12 ImageTexture { url "Man\11.gif" } }
+			}
+			Shape {
+				geometry Box { size 2 3 0.001 }
+				appearance Appearance { material Material { diffuseColor 1 1 1} texture DEF tex13 ImageTexture { url "Man\12.gif" } }
+			}
+			Shape {
+				geometry Box { size 2 3 0.001 }
+				appearance Appearance { material Material { diffuseColor 1 1 1} texture DEF tex14 ImageTexture { url "Man\13.gif" } }
+			}
+			Shape {
+				geometry Box { size 2 3 0.001 }
+				appearance Appearance { material Material { diffuseColor 1 1 1} texture DEF tex15 ImageTexture { url "Man\14.gif" } }
+			}
+			Shape {
+				geometry Box { size 2 3 0.001 }
+				appearance Appearance { material Material { diffuseColor 1 1 1} texture DEF tex16 ImageTexture { url "Man\15.gif" } }
+			}
+			Shape {
+				geometry Box { size 2 3 0.001 }
+				appearance Appearance { material Material { diffuseColor 1 1 1} texture DEF tex17 ImageTexture { url "Man\16.gif" } }
+			}
+			Shape {
+				geometry Box { size 2 3 0.001 }
+				appearance Appearance { material Material { diffuseColor 1 1 1} texture DEF tex18 ImageTexture { url "Man\17.gif" } }
+			}
+			Shape {
+				geometry Box { size 2 3 0.001 }
+				appearance Appearance { material Material { diffuseColor 1 1 1} texture DEF tex19 ImageTexture { url "Man\18.gif" } }
+			}
+			Shape {
+				geometry Box { size 2 3 0.001 }
+				appearance Appearance { material Material { diffuseColor 1 1 1} texture DEF tex20 ImageTexture { url "Man\19.gif" } }
+			}
+			Shape {
+				geometry Box { size 2 3 0.001 }
+				appearance Appearance { material Material { diffuseColor 1 1 1} texture DEF tex21 ImageTexture { url "Man\20.gif" } }
+			}
+			Shape {
+				geometry Box { size 2 3 0.001 }
+				appearance Appearance { material Material { diffuseColor 1 1 1} texture DEF tex22 ImageTexture { url "Man\21.gif" } }
+			}
+			Shape {
+				geometry Box { size 2 3 0.001 }
+				appearance Appearance { material Material { diffuseColor 1 1 1} texture DEF tex23 ImageTexture { url "Man\22.gif" } }
+			}
+			Shape {
+				geometry Box { size 2 3 0.001 }
+				appearance Appearance { material Material { diffuseColor 1 1 1} texture DEF tex24 ImageTexture { url "Man\23.gif" } }
+			}
+			Shape {
+				geometry Box { size 2 3 0.001 }
+				appearance Appearance { material Material { diffuseColor 1 1 1} texture DEF tex25 ImageTexture { url "Man\24.gif" } }
+			}
+			Shape {
+				geometry Box { size 2 3 0.001 }
+				appearance Appearance { material Material { diffuseColor 1 1 1} texture DEF tex26 ImageTexture { url "Man\25.gif" } }
+			}
+			Shape {
+				geometry Box { size 2 3 0.001 }
+				appearance Appearance { material Material { diffuseColor 1 1 1} texture DEF tex27 ImageTexture { url "Man\26.gif" } }
+			}
+			Shape {
+				geometry Box { size 2 3 0.001 }
+				appearance Appearance { material Material { diffuseColor 1 1 1} texture DEF tex28 ImageTexture { url "Man\27.gif" } }
+			}
+			Shape {
+				geometry Box { size 2 3 0.001 }
+				appearance Appearance { material Material { diffuseColor 1 1 1} texture DEF tex29 ImageTexture { url "Man\28.gif" } }
+			}
+			Shape {
+				geometry Box { size 2 3 0.001 }
+				appearance Appearance { material Material { diffuseColor 1 1 1} texture DEF tex30 ImageTexture { url "Man\29.gif" } }
+			}
+			Shape {
+				geometry Box { size 2 3 0.001 }
+				appearance Appearance { material Material { diffuseColor 1 1 1} texture DEF tex31 ImageTexture { url "Man\30.gif" } }
+			}
+			Shape {
+				geometry Box { size 2 3 0.001 }
+				appearance Appearance { material Material { diffuseColor 1 1 1} texture DEF tex32 ImageTexture { url "Man\31.gif" } }
+			}
+			Shape {
+				geometry Box { size 2 3 0.001 }
+				appearance Appearance { material Material { diffuseColor 1 1 1} texture DEF tex33 ImageTexture { url "Man\32.gif" } }
+			}
+			Shape {
+				geometry Box { size 2 3 0.001 }
+				appearance Appearance { material Material { diffuseColor 1 1 1} texture DEF tex34 ImageTexture { url "Man\33.gif" } }
+			}
+			Shape {
+				geometry Box { size 2 3 0.001 }
+				appearance Appearance { material Material { diffuseColor 1 1 1} texture DEF tex35 ImageTexture { url "Man\34.gif" } }
+			}
+			Shape {
+				geometry Box { size 2 3 0.001 }
+				appearance Appearance { material Material { diffuseColor 1 1 1} texture DEF tex36 ImageTexture { url "Man\35.gif" } }
+			}
+
+	 ]
+	}
+]
+}
+
+
+
+			Shape {
+				geometry Box { size 0 0 0 }
+				appearance Appearance { material Material { diffuseColor 1 1 1} texture USE tex1 }
+			}
+			Shape {
+				geometry Box { size 0 0 0 }
+				appearance Appearance { material Material { diffuseColor 1 1 1} texture USE tex2 }
+			}
+			Shape {
+				geometry Box { size 0 0 0 }
+				appearance Appearance { material Material { diffuseColor 1 1 1} texture USE tex3 }
+			}
+			Shape {
+				geometry Box { size 0 0 0 }
+				appearance Appearance { material Material { diffuseColor 1 1 1} texture USE tex4 }
+			}
+			Shape {
+				geometry Box { size 0 0 0 }
+				appearance Appearance { material Material { diffuseColor 1 1 1} texture USE tex5 }
+			}
+			Shape {
+				geometry Box { size 0 0 0 }
+				appearance Appearance { material Material { diffuseColor 1 1 1} texture USE tex6 }
+			}
+			Shape {
+				geometry Box { size 0 0 0 }
+				appearance Appearance { material Material { diffuseColor 1 1 1} texture USE tex7 }
+			}
+			Shape {
+				geometry Box { size 0 0 0 }
+				appearance Appearance { material Material { diffuseColor 1 1 1} texture USE tex8 }
+			}
+			Shape {
+				geometry Box { size 0 0 0 }
+				appearance Appearance { material Material { diffuseColor 1 1 1} texture USE tex9 }
+			}
+			Shape {
+				geometry Box { size 0 0 0 }
+				appearance Appearance { material Material { diffuseColor 1 1 1} texture USE tex10 }
+			}
+			Shape {
+				geometry Box { size 0 0 0 }
+				appearance Appearance { material Material { diffuseColor 1 1 1} texture USE tex11 }
+			}
+			Shape {
+				geometry Box { size 0 0 0 }
+				appearance Appearance { material Material { diffuseColor 1 1 1} texture USE tex12 }
+			}
+			Shape {
+				geometry Box { size 0 0 0 }
+				appearance Appearance { material Material { diffuseColor 1 1 1} texture USE tex13 }
+			}
+			Shape {
+				geometry Box { size 0 0 0 }
+				appearance Appearance { material Material { diffuseColor 1 1 1} texture USE tex14 }
+			}
+			Shape {
+				geometry Box { size 0 0 0 }
+				appearance Appearance { material Material { diffuseColor 1 1 1} texture USE tex15 }
+			}
+			Shape {
+				geometry Box { size 0 0 0 }
+				appearance Appearance { material Material { diffuseColor 1 1 1} texture USE tex16 }
+			}
+			Shape {
+				geometry Box { size 0 0 0 }
+				appearance Appearance { material Material { diffuseColor 1 1 1} texture USE tex17 }
+			}
+			Shape {
+				geometry Box { size 0 0 0 }
+				appearance Appearance { material Material { diffuseColor 1 1 1} texture USE tex18 }
+			}
+			Shape {
+				geometry Box { size 0 0 0 }
+				appearance Appearance { material Material { diffuseColor 1 1 1} texture USE tex19 }
+			}
+			Shape {
+				geometry Box { size 0 0 0 }
+				appearance Appearance { material Material { diffuseColor 1 1 1} texture USE tex20 }
+			}
+			Shape {
+				geometry Box { size 0 0 0 }
+				appearance Appearance { material Material { diffuseColor 1 1 1} texture USE tex21 }
+			}
+			Shape {
+				geometry Box { size 0 0 0 }
+				appearance Appearance { material Material { diffuseColor 1 1 1} texture USE tex22 }
+			}
+			Shape {
+				geometry Box { size 0 0 0 }
+				appearance Appearance { material Material { diffuseColor 1 1 1} texture USE tex23 }
+			}
+			Shape {
+				geometry Box { size 0 0 0 }
+				appearance Appearance { material Material { diffuseColor 1 1 1} texture USE tex24 }
+			}
+			Shape {
+				geometry Box { size 0 0 0 }
+				appearance Appearance { material Material { diffuseColor 1 1 1} texture USE tex25 }
+			}
+			Shape {
+				geometry Box { size 0 0 0 }
+				appearance Appearance { material Material { diffuseColor 1 1 1} texture USE tex26 }
+			}
+			Shape {
+				geometry Box { size 0 0 0 }
+				appearance Appearance { material Material { diffuseColor 1 1 1} texture USE tex27 }
+			}
+			Shape {
+				geometry Box { size 0 0 0 }
+				appearance Appearance { material Material { diffuseColor 1 1 1} texture USE tex28 }
+			}
+			Shape {
+				geometry Box { size 0 0 0 }
+				appearance Appearance { material Material { diffuseColor 1 1 1} texture USE tex29 }
+			}
+			Shape {
+				geometry Box { size 0 0 0 }
+				appearance Appearance { material Material { diffuseColor 1 1 1} texture USE tex30 }
+			}
+			Shape {
+				geometry Box { size 0 0 0 }
+				appearance Appearance { material Material { diffuseColor 1 1 1} texture USE tex31 }
+			}
+			Shape {
+				geometry Box { size 0 0 0 }
+				appearance Appearance { material Material { diffuseColor 1 1 1} texture USE tex32 }
+			}
+			Shape {
+				geometry Box { size 0 0 0 }
+				appearance Appearance { material Material { diffuseColor 1 1 1} texture USE tex33 }
+			}
+			Shape {
+				geometry Box { size 0 0 0 }
+				appearance Appearance { material Material { diffuseColor 1 1 1} texture USE tex34 }
+			}
+			Shape {
+				geometry Box { size 0 0 0 }
+				appearance Appearance { material Material { diffuseColor 1 1 1} texture USE tex35 }
+			}
+			Shape {
+				geometry Box { size 0 0 0 }
+				appearance Appearance { material Material { diffuseColor 1 1 1} texture USE tex36 }
+			}
+
+
+
+##################################################################################
+
+DEF PS ProximitySensor {
+	 center      0 0 0    # (-,)
+	 size        100 100 100   # [0,)
+	 enabled     TRUE
+}
+
+
+
+DEF ConvertTextureT Script {
+  eventIn   SFVec3f position
+  eventOut  SFInt32 choice
+  url ["vrmlscript:
+      function position(value) {
+	    x = value[0];
+        y = value[2];
+
+		picNum = 36;
+
+		if (Math.abs(y) > 1e-15)
+			angle = Math.atan(x/y);
+		else
+			angle = Math.PI/2.0;
+
+		//angle += angle + Math.PI/2.0;
+		if (y < 0)
+			angle += Math.PI;
+
+		if (angle < 0)
+			angle += 2.0 * Math.PI;
+
+		choice = Math.round(angle * ((picNum-1)/2.0/Math.PI));
+	}
+  "]
+}
+
+
+
+
+
+
+
+
+
+
+		]
+ 	}
+
+]
+}
+
+
+
+
+]
+
+
+
+
+
+									}
+							]}
+
+
+
+
+
+				###################### Object  ###########################
+
+			]
+		}
+
+
+
+	]	ROUTE CldSensor1.rotation_changed TO Cylinder01.set_rotation
+
+} #Table
+]
+
+} #TableTransformer Transform
+
+
+
+DEF TableShadowMover_0 Script {
+	eventIn SFVec3f position_in
+	eventOut SFVec3f position_out
+	field SFVec3f translation 2.5 -15 0
+	field SFFloat x 0
+	field SFFloat z 0
+	field SFFloat y 0
+	url "javascript:
+		function position_in(value, time) {
+		   translation = value;
+			x = translation[0];
+			z = translation[1];
+			y = translation[2];
+			position_out=new SFVec3f(x*1.07,z*1.05,y);
+		}
+	"
+}
+
+
+ROUTE TablePlaneSensor_0.translation_changed TO T_0.set_translation
+
+DEF TableScratch_0 Sound {
+  direction     0 0 1   # (-,)
+  intensity     1       # [0,1]
+  location      0 2 0   # (-,)
+  maxBack       1000      # [0,)
+  maxFront      1000     # [0,)
+  minBack       100       # [0,)
+  minFront      100       # [0,)
+  priority      0       # [0,1]
+  source        USE TableScratchAudio
+
+  spatialize    TRUE
+}
+
+DEF ScratchScript_0 Script {
+	eventIn SFBool active
+	eventIn SFVec3f moving
+	eventIn SFTime tick
+	eventOut SFTime start_time
+	eventOut SFTime stop_time
+	field SFVec3f previous_translation 0 0 0
+	field SFVec3f translation 0 0 0
+
+
+	url "javascript:
+		function active(value, time) {
+			 if (!value) stop_time = time;
+		}
+		function moving(value, time) {
+			 start_time = time;
+			 translation = value;
+		}
+		function tick(value, time) {
+			if ((previous_translation[0] == translation[0])&&(previous_translation[1] == translation[1])&&(previous_translation[2] == translation[2])) {
+				stop_time = time;
+			}
+			previous_translation = translation;
+		}
+
+	"
+}
+
+DEF TableScratchTicker_0 TimeSensor {
+  cycleInterval 0.1
+  enabled       TRUE
+  loop          TRUE
+  startTime     0
+  stopTime      -1
+
+}
+
+ROUTE TablePlaneSensor_0.isActive TO ScratchScript_0.active
+ROUTE TablePlaneSensor_0.isActive TO TableScratchTicker_0.enabled
+
+ROUTE TablePlaneSensor_0.translation_changed TO ScratchScript_0.moving
+ROUTE TablePlaneSensor_0.translation_changed TO TableScratch_0.location
+ROUTE TableScratchTicker_0.cycleTime TO ScratchScript_0.tick
+
+ROUTE ScratchScript_0.start_time TO TableScratchAudio.startTime
+ROUTE ScratchScript_0.stop_time TO TableScratchAudio.stopTime
+ROUTE PS.position_changed TO ConvertTextureT.position
+ROUTE ConvertTextureT.choice TO SW.whichChoice
+
+
+
+
+
+
+
+
+
+
+
+
+
